@@ -51,6 +51,9 @@ type MKIDGenerator64 interface {
 }
 
 // 创建64位ID生成器
+func NewIDGenerator64() MKIDGenerator64 {
+	return &mk_IDGenerator64{}
+}
 
 // 64位ID生成器的实现类型
 type mk_IDGenerator64 struct {
