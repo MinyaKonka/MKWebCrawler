@@ -1,7 +1,7 @@
 package downloader
 
 import (
-	middleware "MKWebCrawler/middleware"
+	middleware "core/middleware"
 	"errors"
 	"fmt"
 	"reflect"

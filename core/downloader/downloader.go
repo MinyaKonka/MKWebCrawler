@@ -1,8 +1,8 @@
 package downloader
 
 import (
-	base "MKWebCrawler/base"
-	middleware "MKWebCrawler/middleware"
+	base "core/base"
+	middleware "core/middleware"
 	"logging"
 	"net/http"
 )
