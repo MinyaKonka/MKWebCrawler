@@ -74,9 +74,9 @@ func (response *MKResponse) Valid() bool {
 /*
  * 条目
  */
-type Item map[string]interface{}
+type MKItem map[string]interface{}
 
 // 数据是否有效
-func (item Item) Valid() bool {
+func (item MKItem) Valid() bool {
 	return item != nil
 }
